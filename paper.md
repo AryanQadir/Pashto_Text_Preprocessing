@@ -25,4 +25,25 @@ Pashto suffers from a lack of linguistic tools and standardized datasets. This p
 # Installation
 
 ```bash
-pip install .
+pip install
+
+
+# Usage
+
+from pashto_nlp import normalize_text, tokenize
+text = "زه مکتب ته ځم"
+print(tokenize(normalize_text(text)))
+
+
+# Repository
+The full source code and documentation are available at:
+🔗 https://github.com/AryanQadir/Pashto_Text_Preprocessing
+
+
+# Acknowledgements
+This work was carried out as part of an MS research project under the supervision of the University of Balochistan.
+
+
+
+# References
+
