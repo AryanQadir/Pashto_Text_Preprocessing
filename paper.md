@@ -21,12 +21,12 @@ The toolkit is designed to be modular and easy to integrate into NLP pipelines f
 
 # Statement of Need
 
-Pashto suffers from a lack of linguistic tools and standardized datasets. This preprocessing toolkit fills that gap by offering an open-source, tested, and extensible Python-based solution. It is valuable for linguists, researchers, and developers working on Pashto or similar low-resource languages [@ref1_2022], [@ref2_2015], [@ref3_2023], [@ref4_2023], [@ref5_2023] , [@ref6_2024], [@ref7_2024],[@ref8_2010], [@ref9_2018], [@ref10_2013], [@ref11_2020], [@ref12_2017], [@ref13_2004], [@ref14_1995], [@ref15_2001], [@ref16_2015].
+Pashto suffers from a lack of linguistic tools and standardized datasets. This preprocessing toolkit fills that gap by offering an open-source, tested, and extensible Python-based solution. It is valuable for linguists, researchers, and developers working on Pashto or similar low-resource languages [@ref1_2022], [@ref2_2015], [@ref3_2023], [@ref6_2024],,[@ref8_2010], [@ref9_2018], [@ref10_2013], [@ref11_2020], [@ref12_2017], [@ref13_2004], [@ref14_1995], [@ref15_2001].
 
 # Installation
 
 ```bash
-pip install .
+pip install
 
 
 
