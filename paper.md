@@ -1,4 +1,4 @@
----
+
 title: 'Pashto Text Preprocessing Toolkit for Low-Resource Language'
 authors:
 - name: Abdul Qadir
@@ -36,8 +36,9 @@ print(tokenize(normalize_text(text)))
 
 
 # Repository
+
 The full source code and documentation are available at:
-🔗 https://github.com/AryanQadir/Pashto_Text_Preprocessing
+https://github.com/AryanQadir/Pashto_Text_Preprocessing
 
 
 # Acknowledgements
