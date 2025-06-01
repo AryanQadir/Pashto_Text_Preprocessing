@@ -1,0 +1,26 @@
+name: Build paper
+
+on: [push, pull_request]
+
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        pip install -U pip
+        pip install jupyter numpy pandas
+
+    - name: Install pandoc and check paper build
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic
+        pandoc paper.md --from markdown --to pdf --bibliography paper.bib -o paper.pdf
