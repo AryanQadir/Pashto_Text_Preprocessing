@@ -20,28 +20,9 @@ The toolkit is designed to be modular and easy to integrate into NLP pipelines f
 
 # Statement of need
 
-Pashto suffers from a lack of linguistic tools and standardized datasets. This preprocessing toolkit fills that gap by offering an open-source, tested, and extensible Python-based solution. It is valuable for linguists, researchers, and developers working on Pashto or similar low-resource languages [@ref1_n.d.], [@ref2_2015], [@ref3_2023], [@ref4_2023], [@ref5_2009], et al.
+Pashto suffers from a lack of linguistic tools and standardized datasets. This preprocessing toolkit fills that gap by offering an open-source, tested, and extensible Python-based solution. It is valuable for linguists, researchers, and developers working on Pashto or similar low-resource languages [@ref1_2022], [@ref2_2015], [@ref3_2023], [@ref4_2023], [@ref5_2023].
 
 # Installation
 
 ```bash
 pip install .
-```
-
-# Usage
-
-```python
-from pashto_nlp import normalize_text, tokenize
-text = "زه مکتب ته ځم"
-print(tokenize(normalize_text(text)))
-```
-
-# Repository
-
-The software is available at: https://github.com/AryanQadir/Pashto_Text_Preprocessing
-
-# Acknowledgements
-
-This work was carried out as part of an MS research project under the supervision of the University of Balochistan.
-
-# References
