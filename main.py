@@ -1,7 +1,7 @@
 """
 main.py - Pashto Text Normalization Script
-Author: Your Name
-Date: 2025-05-27
+Author: Abdul Qadir
+Date: 2025-06-01
 
 This script loads Pashto text input (either from command line or file), applies normalization,
 and outputs the normalized text.
