@@ -34,7 +34,7 @@ pip install
 
 from pashto_nlp import normalize_text, tokenize
 
-text = "زه مکتب ته ځم"
+text = "example_pashto_sentence"  # e.g., زه ښوونځي ته ځم
 print(tokenize(normalize_text(text)))
 
 
