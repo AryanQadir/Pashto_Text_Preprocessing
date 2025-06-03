@@ -15,7 +15,7 @@ bibliography: paper.bib
 
 # Summary
 
-This toolkit provides an end-to-end preprocessing pipeline for Pashto, a low-resource language spoken primarily in Pakistan and Afghanistan. It includes modules for normalization, tokenization, stopword removal, stemming, lemmatization, POS tagging, and TF-IDF computation. The toolkit is tailored to the linguistic features of Pashto, offering rule-based POS tagging and configurable resource mappings.
+This toolkit provides an end-to-end preprocessing pipeline Technique for Low-Resource Language: Pashto language (PTPTL), spoken primarily in Pakistan and Afghanistan. The PTPTL module performs essential steps including tokenization, normalization, stop-word removal, stemming, Prefix/suffix terms for normalization POS tagging and TF-IDF computation and is tailored to the linguistic features of Pashto, offering configurable resource mapping and rule-based POS tagging. A corpus of Pashto documents was used for evaluation. Through TF-IDF analysis, a high-frequency Pashto stop-word list was developed to enhance downstream processing. POS tagging was implemented using a rule-based method, improving the quality of syntactic analysis. Compared to the baseline approach, the Proposed PTPTL model achieved higher performance metrics across all measures, highlighting its effectiveness in processing Pashto text and offering a strong foundation for future research in low-resource language NLP.
 
 The toolkit is designed to be modular and easy to integrate into NLP pipelines for downstream tasks like classification, summarization, and information retrieval.
 
